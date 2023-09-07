@@ -3,11 +3,9 @@
 /**
  * main - Entry point
  *
- * Descreption : A C program that prints with put function
- *
- * Return: Always 0 (success)
-*/
-int main(void) 
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
