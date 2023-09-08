@@ -19,4 +19,5 @@ int main(void)
 	printf("Last digit of %d is %d and is less than 6\n", n, deg);
 	else
 	printf("Last digit of %d is %d and is 0\n", n, deg);
+	return (0);
 }
