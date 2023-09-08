@@ -16,8 +16,8 @@ int main(void)
 	if (deg > 5)
 	printf("Last digit of %d is %d and is greater than 5\n", n, deg);
 	else if (deg < 6)
-	printf("Last digit of %d is %d and is less than 6\n", n, deg);
-	else
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, deg);
+	else if (deg == 0)
 	printf("Last digit of %d is %d and is 0\n", n, deg);
 	return (0);
 }
