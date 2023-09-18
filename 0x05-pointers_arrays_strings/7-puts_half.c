@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mai,.h"
+#include "main.h"
 void puts_half(char *str)
 {
 	int len = strlen(str), n, i;
