@@ -11,12 +11,12 @@ void rev_string(char *s)
 int len = strlen(s), i;
 int j = len - 1;
 char ch;
-       
-for (i = 0; i <= (len/2); i++)
+
+for (i = 0; i <= (len / 2); i++)
 {
-ch = s[j];  
-s[j] = s[i];
-s[i]= ch;
-j--;
+	ch = s[j];
+	s[j] = s[i];
+	s[i] = ch;
+	j--;
 }
 }
