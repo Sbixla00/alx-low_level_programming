@@ -7,7 +7,7 @@
  *     *@max:maximum
  *      *
  *       *Return:pointer
- *        */
+*/
 int *array_range(int min, int max)
 {
 	int size, i = 0;

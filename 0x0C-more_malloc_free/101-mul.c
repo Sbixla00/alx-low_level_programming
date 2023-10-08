@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -7,7 +7,7 @@ nclude <stdio.h>
  *    * @s: string to check
  *     *
  *      * Return: 1 if digit, 0 if not
- *       */
+*/
 int _isdigit(char *s)
 {
 	int count = 0;
@@ -28,7 +28,7 @@ int _isdigit(char *s)
  *     * @argv: arguments passed
  *      *
  *       * Return: 0 on success
- *        */
+*/
 int main(int argc, char *argv[])
 {
 	char num1, num2;

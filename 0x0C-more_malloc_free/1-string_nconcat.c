@@ -5,7 +5,7 @@
  *  * _strlen - counts the length of string.
  *   * @s: Value string check.
  *    * Return: String.
- *     */
+*/
 int _strlen(char *s)
 {
 	int i;
@@ -22,7 +22,7 @@ int _strlen(char *s)
  *    * @s2: second string.
  *     * @n: bytes for s2 to use.
  *      * Return: Only both strings.
- *       */
+*/
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 
