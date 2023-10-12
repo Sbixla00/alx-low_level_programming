@@ -9,7 +9,7 @@
  *      * @argv: The command-line arguments
  *       *
  *        * Return: 0 if successful
- *         */
+*/
 
 int main(int argc, char *argv[])
 {
