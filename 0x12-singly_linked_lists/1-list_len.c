@@ -5,7 +5,7 @@
  *  *list_len - returns no. of elements in a list
  *   *@h:list
  *    *Return:no. of elements
- *     */
+*/
 size_t list_len(const list_t *h)
 {
 	int i = 0;
