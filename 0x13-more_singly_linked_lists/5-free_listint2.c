@@ -7,7 +7,7 @@ void free_listint2(listint_t **head)
 {
 	listint_t *current, *node;
 
-	if (head == NULL)
+	if (!head)
 	return;
 	node = *head;
 
