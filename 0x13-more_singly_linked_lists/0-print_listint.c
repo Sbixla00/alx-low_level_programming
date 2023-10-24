@@ -7,7 +7,6 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t n;
-iize_t print_list(const list_t *h)
 
 	for (n = 0; h->next; n++)
 	{
